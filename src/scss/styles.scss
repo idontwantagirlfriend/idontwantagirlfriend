@@ -1,8 +1,13 @@
+$lightFontColor: #ffffff;
+$lightBgImg: url("../res/Blue_sky.png");
+$darkBgColor: #282c34;
+$darkBgImg: url("../res/Starry_night_sky.png");
+
 nav {
   opacity: 0.75;
-  transition: background-color 0.15s cubic-bezier(1, 0, 0, 1), color 0.15s cubic-bezier(1, 0, 0, 1);
+  transition: background-color 0.15s cubic-bezier(1, 0, 0, 1),
+    color 0.15s cubic-bezier(1, 0, 0, 1);
 }
-
 nav.night {
   background-color: transparent;
 }
@@ -13,7 +18,6 @@ footer {
   color: #ffffff;
   transition: background-color 0.15s cubic-bezier(1, 0, 0, 1);
 }
-
 footer.night {
   background-color: #282c34;
   transition: background-color 0.15s cubic-bezier(1, 0, 0, 1);
@@ -27,9 +31,9 @@ footer.night {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  transition: padding-top 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86), background-image 0.15s ease-in-out;
+  transition: padding-top 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86),
+    background-image 0.15s ease-in-out;
 }
-
 #main.night {
   background-image: url("../res/Starry_night_sky.png");
   background-size: cover;
@@ -37,11 +41,9 @@ footer.night {
   background-repeat: no-repeat;
   color: #ffffff;
 }
-
 .page-block {
   background-color: rgba(255, 255, 255, 0.185);
 }
-
 #main-focus {
   padding: 0;
   padding-top: 250px;
@@ -52,7 +54,6 @@ footer.night {
   background-repeat: no-repeat;
   transition: padding-top 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
-
 #main-focus.night {
   background-image: url("../res/Starry_night_sky.png");
   background-size: cover;
@@ -65,7 +66,6 @@ footer.night {
   background-color: transparent;
   padding-bottom: 100px;
 }
-
 #searchBar-wrapper {
   padding-right: 8%;
   padding-left: 0;
@@ -74,15 +74,17 @@ footer.night {
   height: 53px;
   border: 4px solid #0d6efd;
   margin-bottom: inherit;
-  transition: margin-left 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86), max-width 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86), padding-right 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86), height 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86), margin-bottom 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition: margin-left 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86),
+    max-width 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86),
+    padding-right 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86),
+    height 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86),
+    margin-bottom 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
-
 #searchBar-wrapper:hover {
   padding-right: 4%;
   margin-left: 20%;
   max-width: 60%;
 }
-
 #searchBar-wrapper-focus {
   padding-right: 4%;
   margin-left: 10%;
@@ -90,13 +92,15 @@ footer.night {
   height: 80px;
   border: 4px solid #0d6efd;
   margin-bottom: 250px;
-  transition: margin-left 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86), max-width 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86), padding-right 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86), height 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86), margin-bottom 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition: margin-left 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86),
+    max-width 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86),
+    padding-right 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86),
+    height 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86),
+    margin-bottom 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
-
 #searchBar-wrapper.night {
   border: 4px solid white;
 }
-
 #searchBar-wrapper-focus.night {
   border: 4px solid white;
 }
@@ -106,29 +110,29 @@ footer.night {
   height: 100%;
   font-size: 20px;
   background-color: rgba(255, 255, 255, 0.335);
-  transition: opacity 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86), height 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86), font-size 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition: opacity 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86),
+    height 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86),
+    font-size 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
-
 #searchBar:hover {
   display: flex;
   opacity: 1;
   height: 100%;
 }
-
 #searchBar-focus {
   display: flex;
   opacity: 1;
   height: 100%;
   font-size: 30px;
   background-color: rgba(255, 255, 255, 0.335);
-  transition: opacity 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86), height 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86), font-size 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition: opacity 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86),
+    height 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86),
+    font-size 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
-
 #searchBar.night {
   background-color: rgba(255, 255, 255, 0.185);
   color: #ffffff;
 }
-
 #searchBar-focus.night {
   background-color: rgba(255, 255, 255, 0.185);
   color: #ffffff;
@@ -137,13 +141,13 @@ footer.night {
 #search-icon {
   padding-left: 0px;
   padding-right: 0px;
-  transition: padding-left 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86), padding-right 0.1s linear;
+  transition: padding-left 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86),
+    padding-right 0.1s linear;
 }
 
 #search-icon-focus {
   padding-left: 50px;
   padding-right: 50px;
-  transition: padding-left 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86), padding-right 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition: padding-left 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86),
+    padding-right 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
-
-/*# sourceMappingURL=styles.css.map */
